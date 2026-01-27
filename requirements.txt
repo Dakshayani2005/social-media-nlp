@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+nltk
+spacy==3.7.4
+matplotlib
+seaborn
+pyLDAvis
+streamlit
+joblib
