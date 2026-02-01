@@ -79,7 +79,11 @@ This project uses the [Twitter US Airline Sentiment Dataset](https://www.kaggle.
 
 6. **Launch the Streamlit app**:
    ```bash
+   # Default app
    streamlit run app.py
+
+   # Or use the newer dashboard
+   streamlit run streamlit_app.py
    ```
 
 ## 📈 Usage
@@ -131,6 +135,7 @@ social-media-nlp/
 │   ├── sentiment_model.py            # Sentiment analysis module
 │   └── topic_model.py                # Topic modeling module
 ├── app.py                            # Streamlit web application
+├── streamlit_app.py                  # Alternate Streamlit dashboard (new)
 ├── Dockerfile                        # Docker image definition
 ├── docker-compose.yml                # Container orchestration
 ├── requirements.txt                  # Python dependencies
@@ -162,22 +167,3 @@ The application uses default paths. For custom configurations, modify the script
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Twitter US Airline Sentiment Dataset](https://www.kaggle.com/crowdflower/twitter-airline-sentiment) by CrowdFlower
-- [spaCy](https://spacy.io/) for NLP processing
-- [scikit-learn](https://scikit-learn.org/) for machine learning
-- [Streamlit](https://streamlit.io/) for the web interface
-- [pyLDAvis](https://github.com/bmabey/pyLDAvis) for topic visualization
-
-## 📞 Contact
-
-For questions or suggestions, please open an issue on GitHub.
-
----
-
-**Note**: Ensure you have the necessary permissions and comply with Twitter's Terms of Service when working with tweet data.
